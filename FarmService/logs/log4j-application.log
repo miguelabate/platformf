@@ -1,0 +1,10 @@
+2018-08-07 16:41:10 INFO  SearchService:40 - Creating search tasks
+2018-08-07 16:41:10 INFO  BookSearchService:81 - Generated request for book search: https://www.googleapis.com/books/v1/volumes?q=irish%2Bfolk&maxResults=5
+2018-08-07 16:41:10 INFO  AlbumSearchService:77 - Generated request for album search: https://itunes.apple.com/search?term=irish%2Bfolk&limit=5&entity=album&media=music
+2018-08-07 16:41:10 INFO  SearchService:49 - Creating timeouts. Combining them with each search future.
+2018-08-07 16:41:11 INFO  JerseyClientGet:54 - Received JSON response from server. Elapsed time: 573.6 ms
+2018-08-07 16:41:11 INFO  AlbumSearchService:33 - Mapping album json node to model.
+2018-08-07 16:41:11 INFO  SearchService:110 - Product search completed succesfully. Returned: 2 results
+2018-08-07 16:41:11 INFO  JerseyClientGet:54 - Received JSON response from server. Elapsed time: 1.165 s
+2018-08-07 16:41:11 INFO  BookSearchService:32 - Mapping book json node to model.
+2018-08-07 16:41:11 INFO  SearchService:110 - Product search completed succesfully. Returned: 5 results

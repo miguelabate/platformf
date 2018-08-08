@@ -1,0 +1,37 @@
+#REQUIREMENTS
+
++Java 1.8
++Maven 3.5.0 or greater
++Git
+
+#HOW TO RUN
+
++++clone the project form the git hub repository:
+
+git clone https://github.com/miguelabate/kramphubtask.git
+
++++change to the project directory
+
+cd platformf
+cd FarmService
+
++++compile
+
+mvn clean install
+
++++Run it using Jetty servlet container
+
+mvn jetty:run -Denv=prod -DconfigFile=./config.properties
+
++++(optional) you can run it using a tomcat container making sure you pass the arguments in the MAVEN_OPTS variable
+
++++Do requests in your browser like this
+
+POST
+http://localhost:8080/PlatformF/rest/myFarm/init
+
+GET
+http://localhost:8080/PlatformF/rest/myFarm/machine/tractor1
+
+
+

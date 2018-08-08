@@ -1,0 +1,2 @@
+2018-08-07 16:41:11 - {"requestURL":https://itunes.apple.com/search?term=irish%2Bfolk&limit=5&entity=album&media=music, "status":200, "duration":573.6 ms}
+2018-08-07 16:41:11 - {"requestURL":https://www.googleapis.com/books/v1/volumes?q=irish%2Bfolk&maxResults=5, "status":200, "duration":1.165 s}
