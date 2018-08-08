@@ -26,7 +26,7 @@ public class FakeFarmDB {
 //        farmAsset1.setAlerts(alerts);
 
         List<Order> orders = new ArrayList<>();
-        orders.add(new Order("orderId1","part1", true));
+        orders.add(new Order("orderId1","part1", true,"2018-01-01"));
 
         farmAsset1.setOrderHistory(orders);
 

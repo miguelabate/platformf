@@ -11,4 +11,5 @@ public class Order {
     private String orderId;
     private String name;
     private Boolean replace;
+    private String date;
 }

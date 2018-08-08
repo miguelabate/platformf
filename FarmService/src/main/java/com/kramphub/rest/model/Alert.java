@@ -12,4 +12,5 @@ public class Alert {
     private String partName;
     private String alertMessage;
     private String urlThumb;
+    private String date;
 }

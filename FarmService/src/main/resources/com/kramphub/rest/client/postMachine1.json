@@ -1,57 +1,66 @@
 {
-  "machineType": "SOMETYPE",
-  "machineModel": "SOMEMODEL",
-  "machineName": "Yellow Tractor",
+  "machineType": "TRACTOR",
+  "machineModel": "JOHN DEERE 6910 - 1999",
+  "machineName": "John Deere Tractor 1",
   "operationHours": "#OPERATION_HOURS",
   "orderHistory": [
     {
       "replace": true,
-      "orderId": "2017-06-09",
+      "orderId": "orderId1",
+      "date": "2017-06-09",
       "name": "Spark plug NGK"
     },
     {
       "replace": false,
-      "orderId": "2017-01-06",
+      "orderId": "orderId2",
+      "date": "2017-01-06",
       "name": "Cabin air filter Agrotron"
     },
     {
       "replace": false,
-      "orderId": "2017-12-09",
+      "orderId": "orderId3",
+      "date": "2017-12-09",
       "name": "Bulb 12V 60/44 W H4 P43t Philips"
     },
     {
       "replace": true,
-      "orderId": "2016-03-28",
+      "orderId": "orderId3",
+      "date": "2016-03-28",
       "name": "Total Oil 5L"
     },
     {
       "replace": true,
-      "orderId": "2015-11-05",
+      "orderId": "orderId5",
+      "date": "2015-11-05",
       "name": "O-ring Ø 69.5 x 3.00 mm nitrile"
     },
     {
       "replace": true,
-      "orderId": "2016-04-18",
+      "orderId": "orderId6",
+      "date": "2016-04-18",
       "name": "Oil filter CNH"
     },
     {
       "replace": false,
-      "orderId": "2017-06-09",
+      "orderId": "orderId7",
+      "date": "2017-06-09",
       "name": "Cooling liquid 30 kg - EST 27 ltr"
     }
   ],
   "alerts": [
     {
       "alertId": "alertId1",
-      "partName": "part1",
+      "partName": "Cooling liquid 30 kg - EST 27 ltr",
       "alertMessage": "broken",
-      "urlThumb": "http://someurl"
+      "urlThumb": "http://someurl",
+      "date": "2017-06-09"
     },
     {
       "alertId": "alertId2",
-      "partName": "part2",
+      "partName": "Total Oil 5L",
       "alertMessage": "broken",
-      "urlThumb": "http://someurl"
+      "urlThumb": "http://someurl",
+      "date": "2017-06-09"
     }
   ],
   "machineId": "tractor1",
