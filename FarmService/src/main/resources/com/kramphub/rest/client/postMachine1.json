@@ -1,0 +1,29 @@
+{
+  "machineType": "SOMETYPE",
+  "machineModel": "SOMEMODEL",
+  "machineName": "Yellow Tractor",
+  "operationHours": "#OPERATION_HOURS",
+  "orderHistory": [
+    {
+      "replace": true,
+      "orderId": "orderId1",
+      "name": "part1"
+    }
+  ],
+  "alerts": [
+    {
+      "alertId": "alertId1",
+      "partName": "part1",
+      "alertMessage": "broken",
+      "urlThumb": "http://someurl"
+    },
+    {
+      "alertId": "alertId2",
+      "partName": "part2",
+      "alertMessage": "broken",
+      "urlThumb": "http://someurl"
+    }
+  ],
+  "machineId": "tractor1",
+  "operationKilometers": "#OPERATION_KM"
+}

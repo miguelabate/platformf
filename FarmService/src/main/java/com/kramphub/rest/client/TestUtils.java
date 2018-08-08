@@ -1,4 +1,4 @@
-package com.kramphub.rest.test.utils;
+package com.kramphub.rest.client;
 
 import java.io.BufferedReader;
 import java.io.IOException;
