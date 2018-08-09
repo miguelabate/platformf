@@ -24,14 +24,15 @@ public class JerseyClient {
         JerseyClient client = new JerseyClient();
 //		 client.doGet("http://localhost:8080/PlatformF/rest/myFarm/machine/tractor1");
 
-        float opKm = 0;
-        float opHours = 0;
+        float opKm = 80675;
+        float opHours = 8754;
 
         for (int i = 0;; i++) {
-            opKm += 10.5;
+            opKm += 1.5;
             opHours += 0.4;
             String jsonRequestBody = TestUtils
                     .convertStreamToString(JerseyClient.class.getResourceAsStream("postMachine1.json"));
+//                    .convertStreamToString(JerseyClient.class.getResourceAsStream("postMachine2MoreAlerts.json"));
             jsonRequestBody = jsonRequestBody.replace("#OPERATION_KM", String.valueOf((int)opKm)).replace("#OPERATION_HOURS", String.valueOf((int)opHours));
             client.doPost("http://localhost:8080/PlatformF/rest/myFarm/machine/tractor1", jsonRequestBody);
             Thread.sleep(1000);

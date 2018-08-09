@@ -49,11 +49,25 @@
   ],
   "alerts": [
     {
+      "date": "2017-06-09",
       "alertId": "alertId1",
-      "partName": "Cooling liquid 30 kg - EST 27 ltr",
+      "partName": "Cabin air filter Agrotron",
       "alertMessage": "broken",
-      "urlThumb": "http://someurl",
-      "date": "2017-06-09"
+      "urlThumb": "http://someurl"
+    },
+    {
+      "date": "2017-06-09",
+      "alertId": "alertId2",
+      "partName": "Total Oil 5L",
+      "alertMessage": "broken",
+      "urlThumb": "http://someurl"
+    },
+    {
+      "date": "2017-06-10",
+      "alertId": "alertId2",
+      "partName": "Spark plug NGK",
+      "alertMessage": "broken",
+      "urlThumb": "http://someurl"
     }
   ],
   "machineId": "tractor1",
