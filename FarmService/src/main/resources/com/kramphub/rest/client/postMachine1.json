@@ -50,9 +50,9 @@
   "alerts": [
     {
       "alertId": "alertId1",
-      "partName": "Cooling liquid 30 kg - EST 27 ltr",
-      "alertMessage": "broken",
-      "urlThumb": "http://someurl",
+      "partName": "Oil filter CNH",
+      "alertMessage": "Oil filter needs to be changed",
+      "urlThumb": "oil_filter.jpg",
       "date": "2017-06-09"
     }
   ],

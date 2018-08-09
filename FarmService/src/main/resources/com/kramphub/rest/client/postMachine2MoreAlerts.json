@@ -49,25 +49,25 @@
   ],
   "alerts": [
     {
-      "date": "2017-06-09",
       "alertId": "alertId1",
-      "partName": "Cabin air filter Agrotron",
-      "alertMessage": "broken",
-      "urlThumb": "http://someurl"
+      "partName": "Oil filter CNH",
+      "alertMessage": "Oil filter needs to be changed",
+      "urlThumb": "oil_filter.jpg",
+      "date": "2017-06-09"
     },
     {
       "date": "2017-06-09",
       "alertId": "alertId2",
-      "partName": "Total Oil 5L",
-      "alertMessage": "broken",
-      "urlThumb": "http://someurl"
+      "partName": "Bulb 12V 60/44 W H4 P43t Philips",
+      "alertMessage": "Buld not working",
+      "urlThumb": "light_bulb.jpg"
     },
     {
       "date": "2017-06-10",
       "alertId": "alertId2",
-      "partName": "Spark plug NGK",
-      "alertMessage": "broken",
-      "urlThumb": "http://someurl"
+      "partName": "Cabin air filter Agrotron",
+      "alertMessage": "Not working",
+      "urlThumb": "air_filter.jpg"
     }
   ],
   "machineId": "tractor1",
